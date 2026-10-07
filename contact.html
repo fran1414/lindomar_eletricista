@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -24,7 +24,7 @@
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- fonts -->
       <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
       <!-- owl stylesheets --> 
@@ -38,17 +38,17 @@
       <div class="header_section">
          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <a class="navbar-brand"href="index.html"><img src="images/logoo.png"></a>
+               <a class="navbar-brand" href="index.html"><img class="brand_avatar" src="images/avatar.png" alt=""><img class="brand_logo" src="images/logoo.png" alt="Lindomar Eletricista"></a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
-                     <li class="nav-item active">
+                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Início</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">Sobre Nós</a>
+                        <a class="nav-link" href="about.html">Sobre</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" href="services.html">Serviços</a>
@@ -57,9 +57,9 @@
                         <a class="nav-link" href="testimonial.html">Orçamentos</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
+                        <a class="nav-link" href="portfolio.html">Trabalhos</a>
                      </li>
-                     <li class="nav-item">
+                     <li class="nav-item active">
                         <a class="nav-link" href="contact.html">Contatos</a>
                      </li>
                   </ul>
@@ -75,22 +75,30 @@
          <div class="container-fluid">
             <div class="contact_section_2">
                <div class="row">
-                  <div class="col-md-6">
-                     <h1 class="contact_taital">Deixe a sua menssagem!</h1>
-                     <form action="">
-                        <div class="mail_section_1">
-                           <input type="text" class="mail_text" placeholder="Name" name="Name">
-                           <input type="text" class="mail_text" placeholder="Phone Number" name="Phone Number"> 
-                           <input type="text" class="mail_text" placeholder="Email" name="Email">
-                           <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-                           <div class="send_bt"><a href="#">ENVIAR</a></div>
-                        </div>
-                     </form>
+                  <div class="col-lg-5 col-md-6">
+                     <div class="contact_info">
+                        <h1 class="contact_taital">Entre em contato</h1>
+                        <p>Atendimento em Campinas, SP. Fale diretamente conosco pelo canal que preferir.</p>
+                        <ul class="contact_details">
+                           <li>
+                              <i class="fa fa-phone" aria-hidden="true"></i>
+                              <a href="tel:+5519981644408">(19) 98164-4408</a>
+                           </li>
+                           <li>
+                              <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                              <a href="https://wa.me/5519981644408" target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
+                           </li>
+                           <li>
+                              <i class="fa fa-instagram" aria-hidden="true"></i>
+                              <a href="https://www.instagram.com/Lindomaralves_2018/" target="_blank" rel="noopener noreferrer">Instagram: Lindomaralves_2018</a>
+                           </li>
+                        </ul>
+                     </div>
                   </div>
-                  <div class="col-md-6 padding_right0">
+                  <div class="col-lg-7 col-md-6 padding_right0">
                      <div class="map_main">
                         <div class="map-responsive">
-                           <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="470" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                           <iframe src="https://www.google.com/maps?q=Campinas%2C%20SP&output=embed" title="Mapa de Campinas, São Paulo" width="600" height="470" style="border:0; width:100%;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
                         </div>
                      </div>
                   </div>
@@ -110,28 +118,27 @@
                         <ul>
                            <li class="active"><a href="index.html">Início</a></li>
                            <li><a href="about.html">Sobre Nós</a></li>
-                           <li><a href="service.html">Serviços</a></li>
-                           <li><a href="blog.html">Blog</a></li>
+                           <li><a href="services.html">Serviços</a></li>
+                           <li><a href="portfolio.html">Trabalhos</a></li>
                            <li><a href="testimonial.html">Orçamentos</a></li>
                            <li><a href="contact.html">Contatos</a></li>
                         </ul>
                      </div>
                   </div>
                   <div class="col-lg-4 col-md-4">
-                     <h2 class="useful_text">Blog</h2>
-                     <p class="footer_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+                     <h2 class="useful_text">Trabalhos realizados</h2>
+                     <p class="footer_text">Veja fotos e vídeos de serviços realizados pela equipe.</p>
                      <div class="social_icon">
                         <ul>
-                           <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                           <li><a href="https://wa.me/5519981644408" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                           <li><a href="https://www.instagram.com/Lindomaralves_2018/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         </ul>
                      </div>
                   </div>
                   <div class="col-lg-4 col-md-4">
-                     <h2 class="useful_text">Menssagem</h2>
-                     <input type="text" class="Enter_text" placeholder="Enter Your Email" name="Enter Your Email">
-                     <div class="subscribe_bt"><a href="#">ENVIAR</a></div>
+                     <h2 class="useful_text">Orçamento sem compromisso</h2>
+                     <p class="footer_text">Converse conosco pelo WhatsApp.</p>
+                     <div class="subscribe_bt"><a href="https://wa.me/5519981644408" target="_blank" rel="noopener noreferrer">Solicitar orçamento</a></div>
                   </div>
                </div>
             </div>
